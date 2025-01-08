@@ -5,15 +5,16 @@ This repository contains the code supporting the paper *Probabilistic Load Forec
 ## Contents
 
 - **`model/`**: Core implementation of the method
+- **`optimized_bandwidths/`**: Results from bandwidth optimization
 - **`example.ipynb`**: Example code
 
 ### Usage
 
 1. **Data Preparation**:
-   Place your datasets in the `data/` directory. Note: data used in the study can be found in [1].
+Place your datasets in the parent directory and adjust the function **load_data** accordingly. Note: data used in the study can be found in [1].
 
 2. **Producing Forecasts**:
-   Execute the Jupyter notebooks in the `notebooks/` directory to reproduce the results from the paper.
+   Execute the Jupyter notebooks in the `notebooks/` directory to produce forecasts.
 
 3. **Custom Experiments**:
    Modify the functions in the `model/` directory to produce custom results.
